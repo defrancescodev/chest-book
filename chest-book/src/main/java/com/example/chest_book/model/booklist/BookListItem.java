@@ -30,5 +30,5 @@ public class BookListItem {
     private Integer positionOrder;
 
     @Column(length = 300)
-    private String notes; // Comentário opcional do porquê o livro está naquela posição
+    private String notes;
 }

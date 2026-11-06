@@ -15,7 +15,7 @@ public class Book {
     private Long id;
 
     @Column(unique = true)
-    private String externalApiId; // ISBN ou ID da API do Google Books
+    private String externalApiId; //
 
     @Column(nullable = false, length = 200)
     private String title;
